@@ -1,0 +1,4 @@
+-boot start_sasl
+-sname cdt_erlang_client
+-setcookie localcookie
+-kernel shell_history enabled

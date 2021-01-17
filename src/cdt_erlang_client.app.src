@@ -1,0 +1,11 @@
+{application, cdt_erlang_client, [
+    {description, "Chrome developer tools erlang client"},
+    {vsn, "1.0.0"},
+    {mod, {cdt_erlang_client_app, []}},
+    {applications, [
+        kernel,
+        stdlib,
+        gun,
+        jsx
+    ]}
+]}.
